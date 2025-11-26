@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo Centralizado</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center;   /* Centraliza verticalmente */
+            min-height: 100vh;     /* Ocupa toda a altura da tela */
+            margin: 0;
+            background-color: #1a1a1a; /* Fundo escuro para destacar o player */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe 
+            name="Player" 
+            src="//redecaistv.pe/player3/ch.php?canal=bobosp" 
+            frameborder="0" 
+            height="400" 
+            scrolling="no" 
+            width="640" 
+            allow="encrypted-media" 
+            allowFullScreen
+        ></iframe>
+    </div>
+</body>
+</html>
